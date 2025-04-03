@@ -1,0 +1,7 @@
+Stakeholders:
+- Cyclists (possibly using Strava or Google Maps)
+- Local authorities in charge of roads
+
+KPIs
+- Making a recommendation system/model: Given the current conditions (Weather, Route, Day, Hour,  etc..) provided by the cyclist, we would like to be able to tell if this given route is the safest option to consider, whether there is a high probability of being involved in a crash, and maybe suggest a better route to consider cycling on (This can be integrated into Strava or Google Maps for example). For this, I guess the baseline would be the conditions where you have no injury reported.
+- Making recommendations for local authorities: Given the road features we have and their relation to injuries, we may be able to infer something about optimal setup/routes modifications to help reduce the number of crashes. This can be thought of as a separate Application where users upload images of road defects and then we use that for the first model.
