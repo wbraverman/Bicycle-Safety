@@ -1,7 +1,9 @@
 # Bicycle-Safety
 
 The Erdős Institute, Data Science Boot Camp (Spring 2025)
+
 Team: William Braverman, Dr. Justin Fong, Raul Hernandez-Gonzalez, Ayman Hussein
+
 Mentor: Dr. Marcos Ortiz
 
 
