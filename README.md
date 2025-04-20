@@ -1,18 +1,23 @@
 # Bicycle-Safety
 
-Erdos Data Science Bootcamp Spring 2025. 
+The Erdős Institute, Data Science Boot Camp (Spring 2025)
+Team: William Braverman, Dr. Justin Fong, Raul Hernandez-Gonzalez, Ayman Hussein
+Mentor: Dr. Marcos Ortiz
 
-Background: Many Americans choose cycling to commute to work or for recreation. It's a fun way to get outside, get some fresh air, and get exercise. But, all of this comes with some danger as bike crashes with motor vehicles account for tens of thousands of injuries per year. The most lethal year on record for bicycle crashes was 2022, with over 1000 cyclists losing their lives.
 
-Goal:
-- Provide data driven insights that cyclists can use to keep themselves safe on the road and that municipalities can use when designing infrastructure to make it more bike friendly.
+Project Overview:
+Cycling is a popular mode of transportation and recreation for many Americans. While it promotes outdoor activity, fitness, and environmental sustainability, it also comes with inherent risks. In particular, collisions involving bicycles and motor vehicles result in tens of thousands of injuries annually.
+This project explores publicly available bicycle crash data from Chapel Hill, North Carolina, covering over 10,000 incidents between 2007 and 2018. By analyzing crash data in relation to cyclist demographics, road features, and weather conditions, we aim to identify risk factors and offer actionable insights to reduce crash severity and improve cycling safety.
 
-Data:
-- Clean and analyze bicycle crash data. This will be provided from Kaggle municipal DOTs. (Example: https://www.kaggle.com/datasets/adityadesai13/11000-bike-crash-data?resource=download)
-- Environmental: how do time of day, day of week, weather, light, road conditions, etc. correlate with bike crash severity and frequency?
-- Demographic: do things like age, sex, race, etc. play a role in the severity of injury?
-- Infrastructure: what types of road and bicycle infrastructure keeps cyclists safe (or conversely what puts them at the most risk)?
+Our primary objectives are twofold:
+1. To help cyclists choose safer routes based on road and weather conditions.
+2. To assist local transit authorities in making informed decisions about infrastructure design and improvements.
 
-Method:
-- Use Linear Regression and Machine Learning models to determine what factors play the most significant role in cyclist safety.
-- Train predictive model to estimate injury risk for cyclists based on their cycling conditions, route, etc. 
+Project Goals:
+- Route Safety Prediction: Identify safer biking routes under varying environmental and road conditions.
+- Injury Severity Modeling: Develop a classification model to predict the likelihood of severe injuries and ambulance responses based on crash-related features.
+
+Stakeholders
+- Cyclists and Navigation Apps (e.g., Strava): Can use the model to select safer routes for commuting or training.
+- Local Transit Authorities: Can utilize the insights for strategic planning and enhancement of road safety infrastructure.
+
