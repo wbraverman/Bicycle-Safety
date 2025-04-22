@@ -31,7 +31,3 @@ Since we have lots of categorical features, we concluded that the models that co
 - Random Forests
 
 We plan to try different approaches on the encoding for each of these models. We'll keep constant the encoding approach and test it on all three different models, to see how each of them perform.
-
-## Results
-
-### Approach 1
